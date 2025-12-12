@@ -9,7 +9,7 @@ Vignette on using graph neural networks (GNNs) for molecular property prediction
 - Emily Tian (@emilytian0)
 - Pratyush Rallapally (@p-rallapally)
 - Jasper Luo(@JasperLuo0228)
-- Adarsh (@github-handle)
+- Adarsh (@anagar16)
 - Nathan Kim (@nakim12)
 
 ---
@@ -24,16 +24,30 @@ In this vignette, we demonstrate how to use GNNs for molecular property predicti
 ## Repository Contents
 The repository is organized as follows to maintain clarity, reproducibility, and ease of navigation:
 
-root directory (Will update final draft)
-|-- data
-    |-- raw
-    |-- processed
-|-- scripts
-    |-- drafts
-    |-- vignette-script.R
-|-- img
-    |-- fig1.png
-    |-- fig2.png
-|-- vignette.qmd
-|-- vignette.html
-|-- README.md
+```
+root/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── model_checkpoints/bbbp_checkpoints/
+│   └── model_0/
+│        ├── checkpoints/
+│        ├── trainer_logs/version_0
+│        ├── args.json
+│        └── config.toml
+│
+├── scripts/
+│   ├── Vignette_Introduction.ipynb
+│   ├── vignette_gnn.ipynb
+│   └── vignette_gnn_script.ipynb
+│
+├── vignette_gnn_final.ipynb
+├── vignette_gnn_final.html
+├── README.md
+```
+
+## References
+- Distill.pub. *A Gentle Introduction to Graph Neural Networks.* https://distill.pub/2021/gnn-intro/
+- Yang, K. et al. *Analyzing Learned Molecular Representations for Property Prediction.* https://pubs.acs.org/doi/10.1021/acs.jcim.9b00237
