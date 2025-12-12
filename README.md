@@ -39,12 +39,11 @@ root/
 │        └── config.toml
 │
 ├── scripts/
-│   ├── Vignette_Introduction.ipynb
-│   ├── vignette_gnn.ipynb
+│   ├── drafts/
 │   └── vignette_gnn_script.ipynb
 │
-├── vignette_gnn_final.ipynb
-├── vignette_gnn_final.html
+├── vignette_gnn.ipynb
+├── vignette_gnn.html
 ├── README.md
 ```
 
